@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | HB - VR</title>
+    <title>Unity WebGL Player | HumanBodyExploration</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">HB - VR</div>
+        <div id="unity-build-title">HumanBodyExploration</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebBuild4.loader.js";
+      var loaderUrl = buildUrl + "/HumanBodyExploration.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebBuild4.data.br",
-        frameworkUrl: buildUrl + "/WebBuild4.framework.js.br",
-        codeUrl: buildUrl + "/WebBuild4.wasm.br",
+        dataUrl: buildUrl + "/HumanBodyExploration.data.gz",
+        frameworkUrl: buildUrl + "/HumanBodyExploration.framework.js.gz",
+        codeUrl: buildUrl + "/HumanBodyExploration.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "HCIMaster",
-        productName: "HB - VR",
+        productName: "HumanBodyExploration",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
